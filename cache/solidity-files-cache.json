@@ -1,0 +1,44 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\MyWork\\token contract\\VELAMIS_tokenomics\\contracts\\VELAMIS.sol": {
+      "lastModificationDate": 1649161714119,
+      "contentHash": "bd66a7f753366ee7f0f57997ca3d5708",
+      "sourceName": "contracts/VELAMIS.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "IERC20",
+        "SafeMath",
+        "Velamis"
+      ]
+    }
+  }
+}
