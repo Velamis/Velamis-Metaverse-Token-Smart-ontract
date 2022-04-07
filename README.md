@@ -10,4 +10,8 @@ Velamis
     ```sh
     npm install
     ```
+### Compile contract
+```sh
+npx hardhat compile
+```
     
