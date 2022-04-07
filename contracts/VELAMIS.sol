@@ -11,9 +11,7 @@ contract Velamis is Context, IERC20 {
     using SafeMath for uint256;
     using Address for address;
 
-    //address public constant ManageWallet = 0x6742e82826f03F69B46D86FF2Afaf870F9A188c6;
-    address public constant ManageWallet = 0x70997970C51812dc3A010C7d01b50e0d17dc79C8; // for testing
-
+    address public constant ManageWallet = 0x6742e82826f03F69B46D86FF2Afaf870F9A188c6;
     address public constant PrivSaleWallet = 0x2f609c920c78535bF3aE62B92ffb131Cb37b03EB;
     address public constant PubSaleWallet = 0xd0BDc14f6457511655E2290c56FdAd5a3F96Ddea;
     address public constant AdvisoryWallet = 0x1fa257b5aA21e21bD6fa0f421638661b8A422902;
@@ -22,9 +20,8 @@ contract Velamis is Context, IERC20 {
     address public constant CompanyWallet = 0x333431Cdae737Cd1BF6ad26C22e443700710d819;
     address public constant TreasuryWallet = 0xA9ED9C85A7Cc10ED3Cb439934a25D737C6b8d006;
     address public constant StakingRewardWallet = 0x44a7CC9762C267180e0E09d56a84D70629258e29;
+    address public constant PauseWallet = 0x13200C0FAC543e5A7f85791e65Bea038fE6eE25d;
 
-    //address public constant PauseWallet = 0x13200C0FAC543e5A7f85791e65Bea038fE6eE25d;
-    address public constant PauseWallet = 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC; //for testing
     uint public constant PrivSalePercent = 5;
     uint public constant PubSalePercent = 10;
     uint public constant AdvisoryPercent = 5;

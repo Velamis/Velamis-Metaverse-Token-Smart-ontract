@@ -6,6 +6,8 @@ const fs = require('fs');
 const projectId = "e27fa5472f26967c3f445b1e";
 const privateKey ="caf9ee74b3d7a043aa9ccfa04563f2de9c6d621703c2c878f72fbba5c28d4a6e";
 
+const apiKeyForBscscan = "5YWE9Y6JAYQJ937Y16PT4I61644FSMBZ7P";
+
 module.exports = {
   // defaultNetwork: "rinkeby",
   defaultNetwork: "hardhat",
@@ -53,7 +55,9 @@ module.exports = {
     sources: "./contracts",
     artifacts: "./artifacts"
   },
- 
+  etherscan: {
+    apiKey: apiKeyForBscscan
+  },
   solidity: {
     compilers: [
       {

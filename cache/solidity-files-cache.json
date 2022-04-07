@@ -6,10 +6,10 @@
       "contentHash": "a10515007abb76ce7b01e4f3cfc001ac",
       "sourceName": "contracts/libs/Address.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.10",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -19,12 +19,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -37,14 +44,14 @@
       ]
     },
     "D:\\MyWork\\token contract\\velamis_token_contracts\\contracts\\VELAMIS.sol": {
-      "lastModificationDate": 1649314375802,
-      "contentHash": "8cc90a6a02b13ec100aab2207cad2090",
+      "lastModificationDate": 1649320769232,
+      "contentHash": "66f8c6eba482c966e1131383beea07a5",
       "sourceName": "contracts/VELAMIS.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.10",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -54,12 +61,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -81,10 +95,10 @@
       "contentHash": "a0755b1c8d9f99fe2c153b01bea20091",
       "sourceName": "contracts/libs/IERC20.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.10",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -94,12 +108,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -112,14 +133,14 @@
       ]
     },
     "D:\\MyWork\\token contract\\velamis_token_contracts\\contracts\\libs\\SafeMath.sol": {
-      "lastModificationDate": 1649314063769,
-      "contentHash": "879c7866f6e8ed900f031f5b7a24e35d",
+      "lastModificationDate": 1649320811807,
+      "contentHash": "101f5483e92f4dd96d9f6d7854911f7d",
       "sourceName": "contracts/libs/SafeMath.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.10",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -129,17 +150,26 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
       "imports": [],
-      "versionPragmas": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
       "artifacts": [
         "SafeMath"
       ]
@@ -149,10 +179,10 @@
       "contentHash": "c7b024dadfc5120d5b61240d6953ca3f",
       "sourceName": "contracts/libs/Context.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.10",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -162,12 +192,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
