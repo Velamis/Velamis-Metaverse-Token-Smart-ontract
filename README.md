@@ -12,4 +12,21 @@ Velamis
 ```sh
 npx hardhat compile
 ```
-    
+### Test contract
+```sh
+npx hardhat test
+```
+### Deploy contract
+```sh
+npx hardhat run scripts/deploy.js
+```
+### Modifiers
+##### onlyStopper
+Executes only by Stopper
+##### onlyManager
+Executes only by Manager
+##### isRunning
+Check for the contract running
+
+
+
