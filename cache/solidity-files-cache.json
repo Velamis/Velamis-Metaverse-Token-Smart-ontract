@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\MyWork\\token contract\\VELAMIS_tokenomics\\contracts\\VELAMIS.sol": {
-      "lastModificationDate": 1649161714119,
-      "contentHash": "bd66a7f753366ee7f0f57997ca3d5708",
-      "sourceName": "contracts/VELAMIS.sol",
+    "D:\\MyWork\\token contract\\velamis_token_contracts\\contracts\\libs\\Address.sol": {
+      "lastModificationDate": 1649314263744,
+      "contentHash": "a10515007abb76ce7b01e4f3cfc001ac",
+      "sourceName": "contracts/libs/Address.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -33,11 +33,150 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "Address",
-        "Context",
-        "IERC20",
-        "SafeMath",
+        "Address"
+      ]
+    },
+    "D:\\MyWork\\token contract\\velamis_token_contracts\\contracts\\VELAMIS.sol": {
+      "lastModificationDate": 1649314375802,
+      "contentHash": "8cc90a6a02b13ec100aab2207cad2090",
+      "sourceName": "contracts/VELAMIS.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libs/IERC20.sol",
+        "./libs/SafeMath.sol",
+        "./libs/Address.sol",
+        "./libs/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
         "Velamis"
+      ]
+    },
+    "D:\\MyWork\\token contract\\velamis_token_contracts\\contracts\\libs\\IERC20.sol": {
+      "lastModificationDate": 1649313734971,
+      "contentHash": "a0755b1c8d9f99fe2c153b01bea20091",
+      "sourceName": "contracts/libs/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\MyWork\\token contract\\velamis_token_contracts\\contracts\\libs\\SafeMath.sol": {
+      "lastModificationDate": 1649314063769,
+      "contentHash": "879c7866f6e8ed900f031f5b7a24e35d",
+      "sourceName": "contracts/libs/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\MyWork\\token contract\\velamis_token_contracts\\contracts\\libs\\Context.sol": {
+      "lastModificationDate": 1649314175850,
+      "contentHash": "c7b024dadfc5120d5b61240d6953ca3f",
+      "sourceName": "contracts/libs/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
       ]
     }
   }
