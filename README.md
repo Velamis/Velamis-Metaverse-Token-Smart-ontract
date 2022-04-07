@@ -29,7 +29,17 @@ npx hardhat run scripts/deploy.js
     Check for the contract running
 ### Functions
 ##### Mutable
-    issueTokens()- issue the tokens every three months. onlyManager
+    issueTokens() - issue the tokens every three months. onlyManager
+    distributeTokens(uint8 index) - distribute the tokens with index as following tokenomics. onlyManager
+            index 0 - PrivSaleWallet
+                  1 - PubSaleWallet
+                  2 - AdvisoryWallet
+                  3 - TeamWallet
+                  4 - EcoGrowthWallet
+                  5 - CompanyWallet
+                  6 - TreasuryWallet
+                  7 - StakingRewardWallet
+
 
 
 
