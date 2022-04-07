@@ -22,11 +22,14 @@ npx hardhat run scripts/deploy.js
 ```
 ### Modifiers
 ##### onlyStopper
-Executes only by Stopper
+    Executes only by Stopper
 ##### onlyManager
-Executes only by Manager
+    Executes only by Manager
 ##### isRunning
-Check for the contract running
+    Check for the contract running
+### Functions
+##### Mutable
+    issueTokens()- issue the tokens every three months. onlyManager
 
 
 
