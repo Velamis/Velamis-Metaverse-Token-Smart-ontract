@@ -11,7 +11,7 @@ Velamis
     npm install
     ```
 ### Compile contract
-```sh
-npx hardhat compile
-```
+    ```sh
+    npx hardhat compile
+    ```
     
