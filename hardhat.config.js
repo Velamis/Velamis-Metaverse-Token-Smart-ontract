@@ -4,7 +4,7 @@ require('@nomiclabs/hardhat-ethers');
 require("@nomiclabs/hardhat-etherscan");
 const fs = require('fs');
 const projectId = "e27fa5472f26967c3f445b1e";
-const privateKey ="caf9ee74b3d7a043aa9ccfa04563f2de9c6d621703c2c878f72fbba5c28d4a6e";
+const privateKey ="0000000000000000000000000000000000000000000000000000000000000000";
 
 const apiKeyForBscscan = "5YWE9Y6JAYQJ937Y16PT4I61644FSMBZ7P";
 
@@ -14,7 +14,7 @@ module.exports = {
   networks: {
     hardhat: {
       // chainId: 4 //ethereum
-      chainId: 1337, //ethereum
+      chainId: 97, //Binance Smart Chain Testnet
       // chainId: 97, //ethereum
     },
     polygonmainnet: {
