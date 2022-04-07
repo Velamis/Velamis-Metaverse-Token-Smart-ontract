@@ -3,8 +3,9 @@
 Velamis 
 ### Presets
 
-   ```sh
-   #Install all dependencies
-        npm i
-    
+    ```sh
+    #Install all dependencies
+        npm install
+    ```
+
     
